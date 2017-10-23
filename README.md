@@ -50,4 +50,4 @@ This is an Android library to make Shaped NavigationViews inside your Android ap
 
 ## Acknowledgements
 
-Thanks to [Roman Zavarnitsyn](https://github.com/rom4ek) for his ArcNavigationView Project Idea.
+Thanks to [Roman Zavarnitsyn](https://github.com/rom4ek) for his [ArcNavigationView](https://github.com/rom4ek/ArcNavigationView) Project Idea.
