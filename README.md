@@ -1,7 +1,7 @@
 # ShapedNavigationView
-This is an Android library to make Custom Shaped NavigationViews inside your Android applications.
+This is an Android library to make Shaped NavigationViews inside your Android applications.
 
-<img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/Screenshot_2017-10-23-13-51-42.jpg" width="303"> 
+<img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/waves_indefinite.png" width="303"> <img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/bottom_round.png" width="303"> <img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/rounded_corner.png" width="303">
 
 # Usage
 
