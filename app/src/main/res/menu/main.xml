@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/waves"
+        android:orderInCategory="100"
+        android:title="Waves"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/waves_indefinite"
+        android:orderInCategory="100"
+        android:title="Waves Indefinite"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rounded_bottom"
+        android:orderInCategory="100"
+        android:title="Bottom Rounded"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/full_rounded"
+        android:orderInCategory="100"
+        android:title="Full Rounded"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/arcConvex"
+        android:orderInCategory="100"
+        android:title="Convex"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/arcConcave"
+        android:orderInCategory="100"
+        android:title="Concave"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rounded_corners"
+        android:orderInCategory="100"
+        android:title="Rounded Corners"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/normal"
+        android:orderInCategory="100"
+        android:title="Normal"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShapedDrawer">
+        <attr name="drawerShape" format="enum">
+            <enum name="arcConvex" value="0"/>
+            <enum name="arcConcave" value="1"/>
+            <enum name="roundedRect" value="2"/>
+            <enum name="waves" value="3"/>
+            <enum name="bottom_round" value="4"/>
+            <enum name="full_round" value="5"/>
+            <enum name="waves_indefinite" value="6"/>
+        </attr>
+    </declare-styleable>
+</resources>
