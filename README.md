@@ -1,6 +1,6 @@
 # ShapedNavigationView
 
-[![ShapedNavigationView](https://jitpack.io/v/naseemali925/ShapedNavigationView.svg)](https://jitpack.io/#naseemali925/ShapedNavigationView)
+[![](https://jitpack.io/v/naseemali925/ShapedNavigationView.svg)](https://jitpack.io/#naseemali925/ShapedNavigationView)
 
 This is an Android library to make Shaped NavigationViews inside your Android applications.
 
