@@ -115,7 +115,7 @@ public class ShapedNavigationView extends NavigationView {
         width=getMeasuredWidth();
         height=getMeasuredHeight();
         boolean rtl=getResources().getBoolean(R.bool.is_right_to_left);
-        if(rtl==true) {
+        if(rtl==false) {
             switch (type) {
                 case ShapedViewSettings.ARC_CONVEX:
                     path.moveTo(width, 0);
