@@ -82,7 +82,8 @@ You can check out the [sample app](https://github.com/naseemali925/ShapedNavigat
 ## Acknowledgements
 
 Thanks to [Roman Zavarnitsyn](https://github.com/rom4ek) for his [ArcNavigationView](https://github.com/rom4ek/ArcNavigationView) Project Idea.
-Thank to [Hama Omer](https://github.com/hama-Omer) for the Wavy Look Idea.
+
+Thanks to [Hama Omer](https://github.com/hama-Omer) for the Wavy Look Idea.
 
 # License
 
