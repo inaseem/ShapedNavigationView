@@ -1,4 +1,7 @@
 # ShapedNavigationView
+
+[![](https://jitpack.io/v/naseemali925/ShapedNavigationView.svg)](https://jitpack.io/#naseemali925/ShapedNavigationView)
+
 This is an Android library to make Shaped NavigationViews inside your Android applications.
 
 <img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/waves_indefinte.png" width="250">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/full_rounded.png" width="250">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/rounded_corner.png" width="250">
@@ -31,6 +34,34 @@ This is an Android library to make Shaped NavigationViews inside your Android ap
 
 </android.support.v4.widget.DrawerLayout>
 ```
+
+## With Java Code
+
+```java
+	navigationView = (ShapedNavigationView) findViewById(R.id.nav_view);
+        navigationView.getSettings().setShapeType(ShapedViewSettings.WAVES);
+```
+
+# Download
+
+Step 1. Add the JitPack repository to your Project build.gradle file
+
+```grrovy
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency to your App build.gradle file
+
+```groovy
+	dependencies {
+	        compile 'com.github.naseemali925:ShapedNavigationView:0.0.1'
+	}
+```
+
 ## Values Table
 
 <table>
@@ -46,9 +77,22 @@ This is an Android library to make Shaped NavigationViews inside your Android ap
 
 ## Sample App
 
-
+You can check out the [sample app](https://github.com/naseemali925/ShapedNavigationView/tree/master/app)
 
 ## Acknowledgements
 
 Thanks to [Roman Zavarnitsyn](https://github.com/rom4ek) for his [ArcNavigationView](https://github.com/rom4ek/ArcNavigationView) Project Idea.
 Thank to [Hama Omer](https://github.com/hama-Omer) for the Wavy Look Idea.
+
+# License
+
+MIT License
+
+Copyright (c) 2017 Naseem Ali
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the license conditions.
