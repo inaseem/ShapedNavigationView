@@ -17,7 +17,7 @@ This is an Android library to make Shaped NavigationViews inside your Android ap
     
     ...
 
-    <softpro.shapednavigationview.ShapedNavigationView
+    <softpro.naseemali.ShapedNavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -51,3 +51,4 @@ This is an Android library to make Shaped NavigationViews inside your Android ap
 ## Acknowledgements
 
 Thanks to [Roman Zavarnitsyn](https://github.com/rom4ek) for his [ArcNavigationView](https://github.com/rom4ek/ArcNavigationView) Project Idea.
+Thank to [Hama Omer](https://github.com/hama-Omer) for the Wavy Look Idea.
