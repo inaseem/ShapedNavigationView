@@ -1,4 +1,6 @@
 # ShapedNavigationView
+
+[![](https://jitpack.io/v/naseemali925/ShapedNavigationView.svg)](https://jitpack.io/#naseemali925/ShapedNavigationView)
 This is an Android library to make Shaped NavigationViews inside your Android applications.
 
 <img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/waves_indefinte.png" width="250">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/full_rounded.png" width="250">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/rounded_corner.png" width="250">
@@ -32,6 +34,13 @@ This is an Android library to make Shaped NavigationViews inside your Android ap
 </android.support.v4.widget.DrawerLayout>
 ```
 
+## With Java Code
+
+```java
+	navigationView = (ShapedNavigationView) findViewById(R.id.nav_view);
+        navigationView.getSettings().setShapeType(ShapedViewSettings.WAVES);
+```
+
 # Download
 
 Step 1. Add the JitPack repository to your Project build.gradle file
@@ -50,12 +59,6 @@ Step 2. Add the dependency to your App build.gradle file
 	dependencies {
 	        compile 'com.github.naseemali925:ShapedNavigationView:0.0.1'
 	}
-```
-
-## With Java Code
-```java
-	navigationView = (ShapedNavigationView) findViewById(R.id.nav_view);
-        navigationView.getSettings().setShapeType(ShapedViewSettings.WAVES);
 ```
 
 ## Values Table
