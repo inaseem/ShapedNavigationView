@@ -1,7 +1,7 @@
 # ShapedNavigationView
 This is an Android library to make Shaped NavigationViews inside your Android applications.
 
-<img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/waves_indefinite.png" width="303"> <img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/bottom_round.png" width="303"> <img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/rounded_corner.png" width="303">
+<img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/waves_indefinte.png" width="250">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/full_rounded.png" width="250">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/rounded_corner.png" width="250">
 
 # Usage
 
@@ -17,7 +17,7 @@ This is an Android library to make Shaped NavigationViews inside your Android ap
     
     ...
 
-    <softpro.shapednavigationview.ShapedNavigationView
+    <softpro.naseemali.ShapedNavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -31,3 +31,24 @@ This is an Android library to make Shaped NavigationViews inside your Android ap
 
 </android.support.v4.widget.DrawerLayout>
 ```
+## Values Table
+
+<table>
+<tr><th>Attribute</th><th>Value</th><th>Shape Type</th></tr>
+<tr><td>drawerShape</td><td>arcConvex</td><td><img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/convex.png" width="150"></td></tr>
+<tr><td>drawerShape</td><td>arcConcave</td><td><img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/concave.png" width="150"></td></tr>
+<tr><td>drawerShape</td><td>roundedRect</td><td><img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/rounded_corner.png" width="150"></td></tr>
+<tr><td>drawerShape</td><td>waves</td><td><img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/waves.png" width="150"></td></tr>
+<tr><td>drawerShape</td><td>bottom_round</td><td><img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/bottom_rounded.png" width="150"></td></tr>
+<tr><td>drawerShape</td><td>full_round</td><td><img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/full_rounded.png" width="150"></td></tr>
+<tr><td>drawerShape</td><td>waves_indefinite</td><td><img src="https://raw.githubusercontent.com/naseemali925/ShapedNavigationView/master/images/waves_indefinte.png" width="150"></td></tr>
+</table>
+
+## Sample App
+
+
+
+## Acknowledgements
+
+Thanks to [Roman Zavarnitsyn](https://github.com/rom4ek) for his [ArcNavigationView](https://github.com/rom4ek/ArcNavigationView) Project Idea.
+Thank to [Hama Omer](https://github.com/hama-Omer) for the Wavy Look Idea.
