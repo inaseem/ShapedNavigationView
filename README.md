@@ -58,7 +58,7 @@ Step 2. Add the dependency to your App build.gradle file
 
 ```groovy
 	dependencies {
-	        compile 'com.github.naseemali925:ShapedNavigationView:0.0.1'
+	        compile 'com.github.naseemali925:ShapedNavigationView:0.0.2'
 	}
 ```
 
