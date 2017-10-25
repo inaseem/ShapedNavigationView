@@ -15,6 +15,7 @@ import android.os.Build;
 import android.support.design.internal.NavigationMenuView;
 import android.support.design.internal.ScrimInsetsFrameLayout;
 import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -111,17 +112,23 @@ public class ShapedNavigationView extends NavigationView {
 
     @SuppressLint("RtlHardcoded")
     private Path createClipPath(int type) {
-        Path path=new Path();
-        width=getMeasuredWidth();
-        height=getMeasuredHeight();
-        boolean rtl=getResources().getBoolean(R.bool.is_right_to_left);
-        if(rtl) {
+        Path path = new Path();
+        width = getMeasuredWidth();
+        height = getMeasuredHeight();
+        DrawerLayout.LayoutParams layoutParams = (DrawerLayout.LayoutParams) getLayoutParams();
+        boolean rtl = getResources().getBoolean(R.bool.is_right_to_left);
+        if (layoutParams.getLayoutDirection() == LAYOUT_DIRECTION_RTL || getResources().getBoolean(R.bool.is_right_to_left) == true) {
+            rtl = true;
+        } else {
+            rtl = false;
+        }
+        if (rtl) {
             switch (type) {
                 case ShapedViewSettings.ARC_CONVEX:
                     path.moveTo(width, 0);
-                    path.lineTo(width/8, 0);
+                    path.lineTo(width / 8, 0);
                     path.quadTo(0, height / 2,
-                            width/8, height);
+                            width / 8, height);
                     path.lineTo(width, height);
                     path.close();
                     break;
@@ -190,8 +197,7 @@ public class ShapedNavigationView extends NavigationView {
                     path.lineTo(0, height);
                     path.close();
             }
-        }
-        else{
+        } else {
             switch (type) {
                 case ShapedViewSettings.ARC_CONVEX:
                     path.moveTo(0, 0);
@@ -270,7 +276,7 @@ public class ShapedNavigationView extends NavigationView {
         return path;
     }
 
-    public ShapedViewSettings getSettings(){
+    public ShapedViewSettings getSettings() {
         return settings;
     }
 
