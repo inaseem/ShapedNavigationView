@@ -36,7 +36,7 @@ This is an Android library to make Shaped NavigationViews inside your Android ap
 
 Step 1. Add the JitPack repository to your Project build.gradle file
 
-```
+```grrovy
 	allprojects {
 		repositories {
 			...
@@ -46,10 +46,16 @@ Step 1. Add the JitPack repository to your Project build.gradle file
 ```
 Step 2. Add the dependency to your App build.gradle file
 
-```
+```groovy
 	dependencies {
 	        compile 'com.github.naseemali925:ShapedNavigationView:0.0.1'
 	}
+```
+
+## With Java Code
+```java
+	navigationView = (ShapedNavigationView) findViewById(R.id.nav_view);
+        navigationView.getSettings().setShapeType(ShapedViewSettings.WAVES);
 ```
 
 ## Values Table
