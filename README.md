@@ -77,7 +77,7 @@ Step 2. Add the dependency to your App build.gradle file
 
 ## Sample App
 
-You can check out the [sample app](https://github.com/naseemali925/ShapedNavigationView/tree/master/app)
+You can check out the [sample app](https://github.com/iamshouvikmitra/ShapedNavigationView/blob/master/Soft%20Navigation.apk)
 
 ## Acknowledgements
 
