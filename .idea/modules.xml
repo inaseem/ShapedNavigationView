@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SoftNavigation.iml" filepath="$PROJECT_DIR$/SoftNavigation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shapednavigationview/shapednavigationview.iml" filepath="$PROJECT_DIR$/shapednavigationview/shapednavigationview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShapedNavigationView.iml" filepath="$PROJECT_DIR$/ShapedNavigationView.iml" />
     </modules>
   </component>
 </project>
